@@ -1,14 +1,9 @@
 ﻿using System;
-// what is wrong with this branch!?
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Runtime.InteropServices;
 using Microsoft.Win32;
-// try b1 again
-// now this is in b2 branch
-
-// all merged!
 
 namespace ConsoleApplication1
 {
@@ -17,7 +12,6 @@ namespace ConsoleApplication1
 
 
 
-what the heck!?
     class Program
     {
         [DllImport("wininet.dll")]
