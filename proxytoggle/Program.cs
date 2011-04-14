@@ -8,9 +8,6 @@ using Microsoft.Win32;
 namespace ConsoleApplication1
 {
 
-//another b1 type change.
-
-
 
     class Program
     {
