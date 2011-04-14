@@ -5,8 +5,6 @@ using System.Text;
 using System.Runtime.InteropServices;
 using Microsoft.Win32;
 
-// B1 branch
-
 namespace ConsoleApplication1
 {
 
@@ -28,7 +26,6 @@ namespace ConsoleApplication1
             registry.Close();
 
             bool settingsReturn, refreshReturn;
-//test2
             // These lines implement the Interface in the beginning of program 
             // They cause the OS to refresh the settings, causing IP to realy update
             settingsReturn = InternetSetOption(IntPtr.Zero, INTERNET_OPTION_SETTINGS_CHANGED, IntPtr.Zero, 0);
