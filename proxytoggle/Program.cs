@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using Microsoft.Win32;
 
 // try b1 again
+// now this is in b2 branch
 
 namespace ConsoleApplication1
 {
